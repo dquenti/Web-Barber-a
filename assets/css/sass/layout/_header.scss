@@ -1,0 +1,24 @@
+.header{
+    height: 550px;
+    background-image: url('../img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+
+    a {
+        bottom: 5%;
+        position: absolute;
+        color: $blanco;
+        margin-left: 45%;
+   }
+
+}
+
+.header_div{
+    font-family: $playfair;
+    font-size: $xx-large;
+    font-weight: $black;
+    font-style: italic;
+    color: $blanco;
+    text-align: center;
+}

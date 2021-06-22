@@ -1,0 +1,14 @@
+//Mixins
+@mixin button {
+    border-radius: 40px;
+    border: none;
+    background-color: $negro_claro;
+    color: $blanco;
+    font-size: 14px;
+    padding: 0.5em;
+
+    &:hover {
+        background-color: $gris_oscuro;
+        color: $blanco;
+    }
+}

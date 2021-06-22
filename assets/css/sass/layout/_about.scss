@@ -1,0 +1,36 @@
+.about_section{
+    border-top: 1px solid $gris_oscuro;
+    border-bottom: 1px solid $gris_oscuro;
+    display: inline-block;
+}
+
+.img_about_section{
+  padding-left: 50px;
+  border-radius: 65%;
+}
+
+
+.about_section_col1-author {
+    color: $negro_oscuro;
+    font-family: $playfair;
+    font-size: $x-large;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.about_section_col1-autor {
+    font-weight: $light;
+    font-family: $roboto;
+    font-size: $medium;
+    color: $rojo;
+    text-decoration: none!important;
+
+    &:hover {
+        color: $negro;
+    }
+}
+.about_section_col2-description {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: 14px;
+}

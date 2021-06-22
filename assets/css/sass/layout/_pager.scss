@@ -1,0 +1,23 @@
+.pager {
+    background-color: $gris_claro!important;
+    font-family: $roboto;
+}
+
+.page-link {
+    color: $negro_oscuro;
+    font-size: 14px;
+
+    &:hover {
+        background-color: $negro_oscuro;
+        color: $blanco;
+        border: none;
+    }
+}
+
+.next {
+    border-radius: 0px 20px 20px 0px!important;
+}
+
+.previous {
+    border-radius: 20px 0px 0px 20px!important;
+}

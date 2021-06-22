@@ -1,0 +1,31 @@
+//Archivo Manifiesto
+
+// Vendors
+@import 'vendors/bootstrap-5.0.1/bootstrap';
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Base
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+// Layout
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/main-section';
+@import 'layout/about';
+@import 'layout/pager';
+@import 'layout/footer';
+@import 'layout/media';
+
+
+// Components
+@import 'components/buttons';
+
+
+// Pages
+
+// Theme

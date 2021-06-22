@@ -1,0 +1,28 @@
+// Font family
+$roboto: 'Roboto', sans-serif;
+$playfair: 'Playfair Display', serif;
+
+// Font sizes
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+
+//Font weight
+$regular: 400;
+$light: 300;
+$black: 900;
+
+//Typefaces
+body{
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $medium;
+}
+
+h1,h2,h3,{
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $medium;
+}
