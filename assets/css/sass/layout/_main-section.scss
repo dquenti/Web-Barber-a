@@ -1,3 +1,4 @@
+//Características de la primera sección main section//
 .main_section {
     color: $negro;
     padding-left:210px;
@@ -19,13 +20,14 @@
         padding: 10px;
 
     }
+}
 
+//margen//
 .main_section_b{
   margin-top: 40px;
 }
 
-}
-
+//palabra resaltada del texto de la seccion//
 .main_section_span {
     color: $rojo;
 }

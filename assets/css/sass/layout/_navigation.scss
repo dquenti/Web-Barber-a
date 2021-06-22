@@ -1,23 +1,38 @@
-.navbar {
-    background-color: $negro;
-    font-family: $roboto;
-    font-weight: $light;
-    font-size: $medium;
-    padding: 0 auto;
-    width: 100%;
+//Pading y margen de la barra de navegación
+.navbar-expand-lg{
+  padding:0;
+  margin: 0;
+}
+
+//Colores y tamaños de los elementos de la barra de navegación//
+.container-fluid{
+  background-color: $negro_oscuro;
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $medium;
+
 
 }
 
 .collapse{
-padding-bottom: 40px;
-padding-top: 20px;
+  padding-bottom: 33px;
+  padding-top: 20px;
+  padding-left: 55%;
 }
-.navbar-brand-img{
-    width: 120px;
-    height: 60px;
-    display:  block;
-    padding-left: 70px;
-    position: absolute;
-    top:25px;
 
+//caracteristicas de la imagen de la barra de navegación//
+.navbar-brand-img{
+  width: 210px;
+  height: 50px;
+  padding-left: 100px;
+  top:25px;
+}
+//Texto de la barra de navegación sin subrayado
+.nav-link{
+  text-decoration: none;
+
+}
+//Texto de color rojo al pasar el cursor//
+.nav-link:hover {
+  color: $rojo_claro !important;
 }

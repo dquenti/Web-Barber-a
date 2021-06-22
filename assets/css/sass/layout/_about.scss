@@ -1,36 +1,50 @@
+//Línea gris sobre la segunda sección about section//
 .about_section{
     border-top: 1px solid $gris_oscuro;
     border-bottom: 1px solid $gris_oscuro;
-    display: inline-block;
+    display: block;
 }
 
+//Arreglo imagen de about section//
 .img_about_section{
-  padding-left: 50px;
-  border-radius: 65%;
+    padding-left: 50px;
+    border-radius: 65%;
 }
 
-
+//Nombre de la autora del artículo//
 .about_section_col1-author {
     color: $negro_oscuro;
     font-family: $playfair;
     font-size: $x-large;
     font-style: italic;
     font-weight: 900;
+    padding-top: 20px;
 }
 
-.about_section_col1-autor {
+//Primer link de about section//
+.about_section_col1-autor1{
     font-weight: $light;
     font-family: $roboto;
     font-size: $medium;
     color: $rojo;
-    text-decoration: none!important;
-
-    &:hover {
-        color: $negro;
-    }
 }
+
+//Segundo link de about section//
+.about_section_col1-autor2{
+    font-weight: $light;
+    font-family: $roboto;
+    font-size: $medium;
+    color: $rojo;
+}
+//Links sin subrayado//
+a{
+    text-decoration: none;
+}
+
+//Tesxto descriptivo de about section//
 .about_section_col2-description {
     font-family: $roboto;
     font-weight: $regular;
     font-size: 14px;
+    padding-top: 30px;
 }
